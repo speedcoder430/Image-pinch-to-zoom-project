@@ -20,12 +20,13 @@ body {
     justify-content: center;
 }
 
+/* Styling for the Leaflet map container */
 #map {
     height: 100%;
     width: 100%;
 }
 
-/* Custom styles for Leaflet zoom buttons */
+/* Styling for the Leaflet zoom control */
 .leaflet-control-zoom {
     display: flex;
     position: fixed;
@@ -39,37 +40,27 @@ body {
 
 .leaflet-control-zoom a {
     color: white;
-    /* Color of the zoom buttons */
     background-color: #222;
-    /* Background color of the zoom buttons */
     border: none;
-    /* Remove border */
     padding: 10px;
-    /* Padding for the buttons */
     font-size: 18px;
-    /* Font size */
     border-radius: 0px;
-    /* Rounded corners */
     margin: 2px;
-    /* Space between buttons */
     text-decoration: none;
-    /* Remove underline */
 }
 
 .leaflet-control-zoom a:hover {
     background-color: #333;
-    /* Background color on hover */
     color: #fff;
-    /* Text color on hover */
 }
 
+/* Styling for the disabled state of the Leaflet zoom control */
 .leaflet-bar a.leaflet-disabled {
     background-color: #666;
-    /* Background color on hover */
     color: #fff;
-    /* Text color on hover */
 }
 
+/* Styling for the "Go Back" link */
 .go-back {
     display: flex;
     align-items: center;
@@ -82,11 +73,11 @@ body {
     border-radius: 50%;
     background-color: #222;
     color: white;
-    /* z-index: 1000; */
     text-decoration: none;
     z-index: 1000;
 }
 
+/* Styling for the links */
 .link {
     margin: 30px 30px;
     padding: 20px 40px;
